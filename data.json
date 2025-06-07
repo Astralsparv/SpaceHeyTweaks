@@ -1,8 +1,8 @@
 {
 	"version": "0.1.1",
 	"new":
-	{
+	[
 		"IM Reply Revision:<br>  Fixes missing parts of messages<br>  Allows for auto-scrolling to messages<br>  Provides backwards compatibility (including fixing missing parts of messages in previous reply systems)<br>  New reply button",
 		"Cut support for Bulletin image links (they can be pasted in or added through <img>)"
-	}
+	]
 }
