@@ -4,6 +4,5 @@
 	{
 		"0.1": "IM replies<br>IM images native support<br>Builletin image links to images",
 		"0.1.1": "IM replies revamp to fix missing parts of messages & allow for auto-scrolling to messages<br>Cut support for Bulletin image links (they can be pasted in or added through <img>)"
-	},
-	"test": "a"
+	}
 }
