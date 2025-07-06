@@ -1,8 +1,10 @@
 {
-	"version": "0.1.2F",
+	"version": "0.1.2.1F",
 	"new":
 	[
+		"https://docs.google.com/document/d/1YMRsBCd9_Vme4XccL8C6JJ7tBawamTAMbYwRUjKSkvQ/edit?usp=sharing",
 		"HTML injection (you can code the entirity of SpaceHey's appearance)",
-		"Extinction of opposition"
+		"Extinction of opposition",
+		"Base64 Images"
 	]
 }
