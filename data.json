@@ -1,11 +1,12 @@
 {
-	"version": "0.1.2.2",
+	"version": "0.1.2.3",
 	"new":
 	[
-		"https://docs.google.com/document/d/1YMRsBCd9_Vme4XccL8C6JJ7tBawamTAMbYwRUjKSkvQ/edit?usp=sharing",
+		"https://docs.google.com/document/d/1YMRsBCd9_Vme4XccL8C6JJ7tBawamTAMbYwRUjKSkvQ/",
 		"HTML injection (you can code the entirity of SpaceHey's appearance)",
 		"Extinction of opposition",
 		"Base64 Images",
-		"Pings for IMs"
+		"Pings for IMs",
+		"Shopping Cart in the corner & small patches!"
 	]
 }
