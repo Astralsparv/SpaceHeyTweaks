@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceHey Tweaks</title>
+</head>
+<body>
+  <link rel="stylesheet" href="style.css">
+  <h1>SpaceHey Tweaks</h1>
+  <br>
+  <h2>Made by <a href="https://astralsparv.neocities.org/">Astralsparv</a><br>No affiliation with SpaceHey</h2>
+
+  <div class="split"></div>
+
+  <div class="updates">
+    <p class="subhead">Information</p>
+    <p>Version: <span id="as-version">{version}</span></p>
+    <p>Latest Version: <span id="as-latestversion">{latestversion}</span></p>
+    <p>Newest updates:<br><span id="as-updates">{updates}</span></p>
+  </div>
+
+  <div class="split"></div>
+
+  <div class="section">
+    <p class="subhead">Options</p>
+    <label class="switch">
+      <input id="images" type="checkbox">
+      <span class="slider">Native images in IMs</span>
+    </label>
+    <br>
+    <label class="switch">
+      <input id="replies" type="checkbox">
+      <span class="slider">Ability to reply in IMs</span>
+    </label>
+    <br>
+    <label class="switch">
+      <input id="emojis" type="checkbox">
+      <span class="slider">Ability to type emojis in IMs (e.g: :sob:) - Thanks to IonicaBizau</span>
+    </label>
+    <br>
+    <label for="pings">Ping (IMs) option:</label>
+    <select name="pings" id="pings">
+      <option value="none" selected>None</option>
+      <option value="silent">Silent</option>
+      <option value="myspace">Myspace</option>
+      <option value="arcade">Arcade</option>
+      <option value="arcadereverb">Arcade Reverb</option>
+    </select>
+    <p>Extinction to opponent (cannot be disabled, they're extinct.)</p>
+  </div>
+
+  <div class="codables">
+    <div class="section">
+      <p>Homepage:<br>Add HTML to the bottom of your homepage similarly to how you would on your profile! (you can use this for styling)</p>
+      <a href="https://spacehey.com/home">View Homepage<br></a>
+      <textarea name="" id="htmlHomepage" rows="30"></textarea>
+    </div>
+    <div class="section">
+      <p>IMs:<br>Add HTML to the header of your IMs similarly to how you would on your profile! (you can use this for styling)</p>
+      <a href="https://im.spacehey.com/">View IMs<br></a>
+      <textarea name="" id="htmlIMs" rows="30"></textarea>
+    </div>
+    <div class="section">
+      <p>General:<br>Add HTML to the header of your pages similarly to how you would on your profile! (you can use this for styling)<br>This will be added to: browsing, searching, blog, bulletins, forum, groups, favs, invite, app, notifications and shop!</p>
+      <textarea name="" id="htmlGeneral" rows="30"></textarea>
+    </div>
+  </div>
+
+  <img src="shoppingcart.png" class="shoppingcart">
+  <script src="script.js"></script>
+</body>
+</html>
